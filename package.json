@@ -1,0 +1,26 @@
+{
+  "name": "visit-history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/index.js -o dist/visit-history.js && babel dist/visit-history.js --out-file dist/visit-history-compiled.js && terser dist/visit-history-compiled.js --compress --mangle -o dist/visit-history.min.js"
+  },
+  "keywords": [
+    "visit",
+    "history"
+  ],
+  "author": "HCLonely",
+  "license": "MIT",
+  "dependencies": {
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "browserify": "^17.0.0",
+    "terser": "^5.16.2"
+  }
+}
