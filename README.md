@@ -8,13 +8,13 @@
 2. 在你的网页中插入
 
     ```html
-    <script src="path/to/visit-history.min.js></script>"
+    <script src="path/to/visit-history.min.js"></script>
     ```
 
 或直接使用CND
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/HCLonely/visit-history@1visit-history.min.js></script>"
+<script src="https://cdn.jsdelivr.net/gh/HCLonely/visit-history@1visit-history.min.js"></script>
 ```
 
 ## 使用
