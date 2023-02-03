@@ -4,7 +4,7 @@
 
 ## 安装
 
-1. 下载[isit-history.min.js](dist/visit-history.min.js)文件；
+1. 下载[visit-history.min.js](dist/visit-history.min.js)文件；
 2. 在你的网页中插入
 
     ```html
